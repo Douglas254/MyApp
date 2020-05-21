@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Author" content="Douglas Obara">
+    <title>Contact &ndash; Douglas Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="link/animate.css">
+    <script src="Script\javascript.js" charset="utf-8"></script>
+  </head>
+  <body>
+     <header>
+       <div class="container">
+         <div id="branding">
+            <div><img src="images/logo.png" width="20%"></div>
+           <h1><span class="highlight">Douglas</span> Web Design</h1>
+         </div>
+         <nav>
+           <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="projects.html">Projects</a></li>
+             <li><a href="gallery.html">gallery</a></li>
+             <li class="current"><a href="contact.html">Contact</a></li>
+           </ul>
+         </nav>
+       </div>
+     </header>
+ <body>
+     <section id="main">
+        <div class="container">
+          <div id="frm">
+              <form>
+                <h1 id="formhead">Fill the following form</h1>
+                  First Name:  <input type"text" name="firstname" placeholder="Enter first name..."><br><br>
+                  Second Name: <input type="text" name="secondname" placeholder="Enter second name..."><br><br>
+                  Sur Name:    <input type="text" name="Surname" placeholder="Enter sur name..."><br><br>
+                  Mobile No: <input type="text" name="phoneno" placeholder="07xxxxxxxx"><br><br>
+                  Date of Birth: <input type="date" name="date"><br><br>
+                  Age: <input type="number" name="age"><br><br>
+                  Gender: <br> Male:<input type="radio" name="radio" checked>  Female:<input type="radio" name="radio"> Other:<input type="radio" name="radio"><br><br>
+                  Email: <input type="email" name="mail" id="emailinput" style="width:190px"><br><br>
+                  Select County: <select>
+                               <option value=""></option>
+                               <option value="Mombasa">Mombasa</option>
+                               <option value="kwale">Kwale</option>
+                               <option value="Kilifi">Kilifi</option>
+                               <option value="Tana River">Tana River</option>
+                               <option value="Lamu">Lamu</option>
+                               <option value="Taita-Taveta">Taita-Taveta</option>
+                               <option value="Garissa">Garissa</option>
+                               <option value="Wajir">Wajir</option>
+                               <option value="Mandera">Mandera</option>
+                               <option value="Marsabit">Marsabit</option>
+                               <option value="Isiolo">Isiolo</option>
+                               <option value="Meru">Meru</option>
+                               <option value="Tharaka-Nithi">Tharaka-Nithi</option>
+                               <option value="Embu">Embu</option>
+                               <option value="Kitui">Kitui</option>
+                               <option value="Machakos">Machakos</option>
+                               <option value="Makueni">Makueni</option>
+                               <option value="Nyandarua central">Nyandarua central</option>
+                               <option value="Nyeri">Nyeri</option>
+                               <option value="Kirinyaga">Kirinyaga</option>
+                               <option value="Muranga">Muranga</option>
+                               <option value="Kiambu">Kiambu</option>
+                               <option value="Turkana">Turkana</option>
+                               <option value="West-Pokot">West-Pokot</option>
+                               <option value="Samburu">Samburu</option>
+                               <option value="Trans-zioa">Trans-zoia</option>
+                               <option value="Uasingishu">Uasingishu</option>
+                               <option value="Elgeiyo-Marakwet">Elgeiyo-Marakwet</option>
+                               <option value="Nandi">Nandi</option>
+                               <option value="Baringo">Baringo</option>
+                               <option value="Laikipia">Laikipia</option>
+                               <option value="Nakuru">Nakuru</option>
+                               <option value="Narok">Narok</option>
+                               <option value="Kajiado">Kajiado</option>
+                               <option value="Kericho">Kericho</option>
+                               <option value="Bomet">Bomet</option>
+                               <option value="Kakamega">Kakamega</option>
+                               <option value="Vihiga">Vihiga</option>
+                               <option value="Bungoma">Bungoma</option>
+                               <option value="Busia">Busia</option>
+                               <option value="Siaya">Siaya</option>
+                               <option value="kisumu">Kisumu</option>
+                               <option value="Homabay">Homabay</option>
+                               <option value="Migori">Migori</option>
+                               <option value="Kisii">Kisii</option>
+                               <option value="Nyamira">Nyamira</option>
+                               <option value="Nairobi">Nairobi</option>
+                   </select><br><br>
+                   <label for="campus">Campus:</label> <input type="radio" name="campo" checked>Main Campus <input type="radio" name="campo">Town Campus <br><br>
+                   <label for="programs">Programme:</label>
+                   <select id="selct1" name="selct1" onchange="populate('selct1','selct2')">
+                     <option value=""></option>
+                     <option value="doctorofphilosophy">Doctor of Philosophy (PhD)</option>
+                     <option value="masters">Masters</option>
+                     <option value="degree">Degree</option>
+                     <option value="diploma">Diploma</option>
+                     <option value="certificate">Certificate</option>
+                   </select><br><br>
+                      <label for="school">School: </label> <select id="selct2" name="selct2" onchange="department('selct2','select3')"></select><br><br>
+                      <label for="department:">Department:</label> <select id="select3" name="select3"></select><br><br>
+                  <button type="button" name="btn" id="btn">Submit</button
+              </form>
+              </div>
+              <iframe src="index.html" width="450px" height="800px" class="frame"></iframe>
+
+              <aside id="contact">
+                <h1>CONTACT INFO</h1>
+                <h3>Address</h3>
+                Kabarak University,Private Bag &ndash; 20157,
+                <h3>Email Us</h3>
+                douglasobara97@gmail.
+                <h3>Call Us</h3>
+                +2547 - 42 - 608 - 717
+              </aside>
+        </div>
+     </section>
+
+     <footer>
+      <p>Kabarak University, 00100,Nakuru,Kenya | Phone: +254742608717 | Email: douglasobara97@gmail.com</p>
+       <p>Douglas Web Design &copy;2020</p>
+     </footer>
+  </body>
+</html>
