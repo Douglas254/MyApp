@@ -1,0 +1,248 @@
+body{
+    font-family:Arial,helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Global */
+  .container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  /* By default ul has a padding // so set to zero*/
+  ul{
+    padding:0;
+    margin:0;
+  }
+  
+  /*--HEADER--*/
+  header{
+    background:#000000;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #2d1985 3px solid;
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  header #branding h1{
+    margin: 0;
+  }
+  header nav{
+    float:right;
+    margin-top: 70px;
+  }
+  
+  header .highlight,header .current a{
+    color:#e8491d;
+    font-weight: bold;
+  }
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+  /*--END HEADER--*/
+  
+  /*--INDEX--*/
+  /* Showcase */
+  #showcase{
+    min-height: 400px;
+    background:url('images/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color:#ffffff;
+  }
+  #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  #showcase p{
+    font-size: 20px;
+  }
+  #showcase:hover{
+    opacity: .9;
+  }
+  /* Newsletter*/
+  #newsletter{
+    color:#ffffff;
+    padding:16px;
+    background:#35424a;
+  }
+  #newsletter h1{
+    float: left;
+  }
+  #newsletter form{
+    float:right;
+    margin-top:17px;
+  }
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width: 250px;
+  }
+  .button_1{
+    margin-left:1px;
+    padding:9px;
+    border: 0;
+    background:#e8491d;
+    color: #ffffff;
+  }
+  /* Boxes */
+  #boxes{
+    margin-top: 20px;
+  }
+  #boxes .box{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding:10px;
+  }
+  #boxes img{
+    width: 90px;
+  }
+  /*--END INDEX--*/
+  
+  /*--ABOUT--*/
+  
+  /* aside sidebar*/
+  .main-col{
+    float:left;
+    width:60%;
+  }
+  /* vertical line */
+  .vl{
+    border: 1px solid grey;
+    height: 310px;
+    position: absolute;
+    left: 59%;
+    margin-top: 20px;
+  }
+  aside#sidebar{
+    float:right;
+    width:35%;
+    margin-top:10px;
+    background-color: #000000;
+    color:#ffffff;
+    padding-left:15px;
+    border:5px solid rgba(0,0,255,0.5);
+  }
+  .lnk{
+    font-size: 16px;
+    color: rgb(0, 0, 255);
+  }
+  /* animation of the image link */
+  .imglink:hover{
+    animation: shake 0.5s;
+    border-radius: 50%;
+  }
+  .imglink{
+    border-radius: 45%;
+  }
+  
+  /*--END ABOUT--*/
+  
+  /*--SERVICES--*/
+  /*--END SERVICES--*/
+  
+  /*--PROJECT--*/
+  /*--END PROJECT--*/
+  
+  /*--GALLERY--*/
+  /* center websites gallery*/
+  .main{
+    max-width: 1250px;
+    margin: auto;
+    background-color: #ffffff;
+    padding-left: 30px;
+  }
+  .main h1{
+    font-size: 50px;
+    word-break: break-all;
+    text-transform: uppercase;
+    color: rgba(0,255,0,0.9);
+    padding-top: 20px;
+    margin-top: 0px;
+  }
+  .main h1:hover{
+    color:rgb(174,132,29);
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;
+  }
+  .content{
+    float: right;
+    width: 30%;
+  }
+  
+  /* --END GALLERY-- */
+  
+  /* --CONTACT--*/
+  #frm{
+    background-color:black;
+    width: 33%;
+    color: white;
+    padding: 16px 16px 32px 16px;
+    margin-top: 16px;
+    float:left;
+  }
+  #formhead{
+    color:rgb(0,255,122);
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  #frm:hover{
+    opacity: .9;
+  }
+  #btn{
+    float:right;
+    border:none;
+    padding:6px;
+     border-radius: 50px;
+  }
+  #btn:hover{
+    background: green;
+    color: white;
+  }
+  #frm form{
+    border:3px double white;
+    padding:20px 60px 35px 20px;
+  }
+   aside#contact{
+    float:right;
+    width: 25%;
+    padding-top: 50px;
+  }
+  .frame{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  /*--END CONTACT--*/
+  
+  /*--FOOTER--*/
+  footer{
+    padding:20px;
+    margin-top:20px;
+    text-align: center;
+    background-color: #35130a;
+    color: #ffffff;
+  }
+  
