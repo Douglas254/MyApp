@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Author" content="Douglas Obara">
+    <title>Welcome &ndash; Douglas Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="link/animate.css">
+      <script src="Script\javascript.js" charset="utf-8"></script>
+  </head>
+  <body>
+  <!-- PhP external connect -->
+    <?php include 'PHP\dbconnect.php' ?>
+     <header>
+       <div class="container">
+         <div id="branding">
+            <div><img src="images/logo.png" width="20%"></div>
+           <h1><span class="highlight">Douglas</span> Web Design</h1>
+         </div>
+         <nav>
+           <ul>
+             <li class="current"><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="projects.html">Projects</a></li>
+             <li><a href="gallery.html">gallery</a></li>
+             <li><a href="contact.html">Contact</a></li>
+           </ul>
+         </nav>
+       </div>
+     </header>
+
+     <section id="showcase">
+       <div class="container fadeInDown animated">
+         <h1>INFORMATION TECHNOLOGY</h1>
+         <p>“Information Technology is a branch of engineering that deals with the use of computers and telecommunications to retrieve  and store and transmit information”</p>
+       </div>
+     </section>
+
+     <section id="newsletter">
+       <div class="container bounce animated">
+         <h1>Subscribe To Our Newsletter</h1>
+         <form action="PHP\dbconnect.php" method="post">
+           <input type="email" placeholder="Enter Email..." autocomplete="off" name="email">
+           <button type="submit" class="button_1">Subscribe</button>
+         </form>
+       </div>
+     </section>
+
+     <section id="boxes">
+        <div class="container shake animated">
+           <div class="box">
+             <img src="images/HTML5.png">
+            <h3>HTML5 Markup</h3>
+            <p>HTML is the World Wide Web's core markup language. Originally, HTML was primarily designed as a language for semantically describing scientific documents. Its general design, however, has enabled it to be adapted, over the subsequent years, to describe a number of other types of documents and even applications.</p>
+           </div>
+
+           <div class="box">
+             <img src="images/CSS3.png">
+            <h3>CSS3 Styling</h3>
+            <p>The most common way to add CSS, is to keep the styles in separate CSS files. However, here we will use inline and internal styling, because this is easier to demonstrate, and easier for you to try it yourself.</p>
+           </div>
+
+           <div class="box">
+             <img src="images/Graphdesign.png">
+            <h3>Graphic Design</h3>
+            <p>Design isn’t just about making things look pretty; effective design should entice and persuade. A well designed website can direct visitors to take action, like clicking a “buy” button for instance. A well designed catalogue compels readers to keep turning pages. Good quality graphic design has the potential to deliver measurable results for a business.</p>
+           </div>
+        </div>
+     </section>
+
+     <footer>
+       <p>Kabarak University, 00100,Nakuru,Kenya | Phone: +254742608717 | Email: douglasobara97@gmail.com</p>
+       <p>Douglas Web Design &copy;2020</p>
+     </footer>
+
+  </body>
+</html>
