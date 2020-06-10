@@ -234,14 +234,20 @@ body{
     margin-top: 30px;
     margin-left: 20px;
   }
-  
   /*--END CONTACT--*/
   
   /*--FOOTER--*/
+  footer{
+    padding:20px;
+    margin-top:20px;
+    text-align: center;
+    background-color: #35130a;
+    color: #ffffff;
+  }
   .social-menu ul {
     position:absolute;
-    top:5%;
-    right:5%;
+    bottom:-34%;
+    right:-7%;
     padding:0;
     margin:0;
     transform: translate(-50%,-50%);
@@ -279,7 +285,7 @@ body{
     background-color:#3b5999;
   }
   .social-menu ul li:nth-child(2) a:hover{
-    background-color:#353842;
+    background-color:#AD5C51;
   }
   .social-menu ul li:nth-child(3) a:hover{
     background-color:#55acee;
@@ -290,11 +296,7 @@ body{
   .social-menu ul li:nth-child(5) a:hover{
     background-color:#00775B;
   }
-  
-  footer{
-    padding:20px;
-    margin-top:20px;
-    text-align: center;
-    background-color: #35130a;
-    color: #ffffff;
+  .social-menu ul li:nth-child(6) a:hover{
+    background-color: purple;
   }
+  
